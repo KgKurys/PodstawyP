@@ -1,0 +1,1 @@
+"ID\tNazwa\t\tCena\t\tLiczba sztuk\tWartosc\n"
