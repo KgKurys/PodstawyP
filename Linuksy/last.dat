@@ -21,4 +21,4 @@ root        pts/1        212.33.66.26     Wed Oct  6 08:49 - 08:56  (00:07)
 romekko     pts/1        212.37.61.21     Wed Oct  5 09:23 - 09:26  (00:03)    
 superromek  pts/1        212.37.60.20     Wed Oct  4 09:33 - 09:36  (00:03)
 
-cut -d ' ' -f1 last.dat | sort -r > pwd.txt
+cut -d ':' -f1 /etc/passwd | sort -r > test.txt

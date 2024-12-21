@@ -1,16 +1,11 @@
 #!/bin/bash
-
-echo Podaj lokalizacje
-read A
-
-DIR=$A
-
-hidden_files=$(ls -a "$DIR" | grep -E "^\..*a.*")
-
-
+DIR=$1
+hidden_files=($(ls -ap $DIR | grep -v / | grep -E "a" | grep "^\."))
 if [ -z "$hidden_files" ]; then
 echo Nie znaleziono plikow
 else
 echo "Znalezione ukryte pliki z literą a"
-echo $hidden_files
+for i in ${hidden_files[@]}; do
+echo $i
+done
 fi
