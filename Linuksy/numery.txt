@@ -1,0 +1,12 @@
+john.doe@example.com
+jane.smith@domain.gunwo
+user123@website.com
+test.user@sample.gunwo
+admin@company.org
+info@service.gunwo
+contact@business.net
+support@help.gunwo
+sales@marketplace.com
+feedback@platform.gunwo
+
+grep -E "[A-Za-z0-9.+_%-]+@[A-Za-z0-9.+_%-]+\.gunwo" numery.txt
