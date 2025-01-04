@@ -26,7 +26,7 @@ int main() {
     }
 
     int n;
-    fscanf(file, "%d", &n); // Fixed: Read the number of books from file
+    fscanf(file, "%d", &n);
     printf("Number of books: %d\n", n);
     Book *books = malloc(n * sizeof(Book));
     
@@ -75,6 +75,36 @@ void findCheapestBook(Book books[], int n){
     printf("Cheapest book: %s (%.2f)\n",
            books[index].tytul,
            books[index].cena);
-
+printf("\n");
 }
-void findThickestBooksByCategory(Book books[], int n);
+
+void findThickestBooksByCategory(Book books[], int n){
+    for (int i = 0; i < n; i++) {
+        int found = 0;
+        
+        for (int j = 0; j < i; j++) {
+            if (books[j].kat[0] == books[i].kat[0]) {
+                found = 1;
+                break;
+            }
+        }
+        if (!found) {
+            int maxPages = books[i].strony;
+            int maxIndex = i;
+            for (int j = i + 1; j < n; j++) {
+                if (books[j].kat[0] == books[i].kat[0] && 
+                    books[j].strony > maxPages) {
+                    maxPages = books[j].strony;
+                    maxIndex = j;
+                }
+            }
+            
+            printf("Thickest in %s: %s (%d pages)\n",
+                   books[maxIndex].kat,
+                   books[maxIndex].tytul,
+                   books[maxIndex].strony);
+        }
+    }
+    
+     
+}
