@@ -1,0 +1,14 @@
+./
+../
+.cache/
+.ipynb_checkpoints/
+.java/
+.landscape/
+.local/
+.sage/
+.sympow/
+A/
+Algebra/
+Linuksy/
+lista/
+sage/
