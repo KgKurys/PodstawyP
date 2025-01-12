@@ -1,0 +1,11 @@
+10
+Agatha_Christie	I-nie-było-juz-nikogo	kryminal	20	180	0	1
+Suzanne_Collins	Igrzyska-Smierci	fantasy	35	350	0	2
+Agatha_Christie	Karty-na-stol	kryminal	25.9	201	1	4
+Stephane_Meyer	Zmierzch    romans	45.25	412 1	5
+Brandon_Sanderson	Z-mgly-zrodzony fantasy 61.3    207 0   1
+Agatha_Christie	Po-pogrzebie	kryminal    28  178 0   4
+Brandon_Sanderson	Bohater-wiekow  fantasy	49.5    450	0	3
+Brandon_Sanderson	Studnia-Wstapienia  fantasy	35  201	1	3
+J_Rowling	Harry-Potter-i-Kamien-Filozoficzny	dla-mlodziezy	39.2	350	1	4
+Neil_Gaiman	Sandman	fantasy	45	120	1	1
