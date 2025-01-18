@@ -1,0 +1,66 @@
+1. Wykonaj następujące polecenie:
+ls –l > output
+less output
+Dlaczego w wyświetlonym wyniku polecenia ”ls –l” z pliku output rozmiar pliku
+output jest równy „0” ?
+2. Wykonaj następujące polecenia:
+ls –a /tmp
+ls –a /tmp >ls.out
+cat ls.out
+Porównaj wyniki
+3. W katalogu domowym załóż podkatalog o nazwie A. Umieść w nim dowolne
+dwa pliki.
+Odbierz sobie wszystkie prawa do założonego wcześniej katalogu A.
+chmod 000 A
+Będąc w katalogu macierzystym wydawaj następujące polecenia zwracając
+szczególną
+uwagę na umiejscowienie (ekran, pliki) otrzymywanych rezultatów:
+● ls –l * > a.txt
+● ls –l * 2> b.txt
+● ls –l * >a.txt 2>b.txt
+● ls –l * >a.txt 2>&1
+● ls –l * 2>&1 >a.txt (Jaka jest różnica w stosunku do punktu d –
+dlaczego ?)
+4. Posortuj plik /etc/passwd według nazwy użytkownika.
+5. Posortuj plik /etc/passwd wg identyfikatora użytkownika.
+6. Wyświetl linie o numerach 3, 4 i 5 z pliku /etc/passwd
+7. Wyświetl linie o numerach 7, 6 i 5 od końca pliku /etc/passwd
+8. Stwórz w katalogu następujące pliki:
+01-2014.txt 01-2015.txt 02-2014.txt 02-2015.txt 03-2014.txt
+03-2015.txt 12-2014.txt 12-2015.txt
+Wypisz nazwy powyższych plików w sposób chronologiczny.
+9. Posortuj dane z pliku /etc/passwd według numeru grupy. Wynik zapisz w
+pliku passwd-wg-grup.txt
+10. Na podstawie zawartości pliku /etc/passwd policz użytkowników z
+zablokowaną możliwością logowania (/sbin/nologin lub /bin/false)
+11.Wyświetl plik /etc/passwd z podziałem na strony przyjmując, że strona ma 7
+linii tekstu.
+12.Korzystając z polecenia cat utwórz plik tekst.txt, który będzie składał się z
+zawartości pliku tekst1.txt, ciągu znaków podanego ze standardowego
+wejścia (klawiatury) i pliku tekst2.txt.
+13.Wyświetl zawartość pliku lista.txt w jednej linii
+14.Oblicz sumę znaków z pierwszych pięciu linii pliku lista.txt
+15. Wiedząc, iż poszczególne kolumny w pliku /etc/passwd oddzielone są od
+siebie znakiem ‘:’, umieść w pliku passwd36.txt trzecią i szóstą kolumnę z
+pliku /etc/passwd oddzielone znakami ‘-‘.
+16. W pliku passwd63.txt umieść kolumnę szóstą i trzecią z pliku /etc/passwd
+(odwrotna kolejność kolumn niż w pkt. 15). Użyj poleceń cut i paste.
+17. Do pliku mypasswd skopiuj plik /etc/passwd z pominięciem drugiej kolumny
+tego pliku.
+18.Zapisz w pliku ls-uppercase.txt listę plików z aktualnego katalogu,
+zamieniając wszystkie małe litery na duże.
+19.Wyświetl listę praw dostępu do plików w aktualnym katalogu, ich rozmiar i
+nazwę.
+20.Wyświetl listę plików w aktualnym katalogu, posortowaną według rozmiaru
+pliku.
+21.Podaj liczbę plików użytkownika w katalogu domowym i jego podkatalogach
+(wykorzystaj polecenie find).
+22.Podaj nazwy trzech najmniejszych plików zwykłych w katalogu posortowane
+wg nazwy.
+23.Wyświetl (tylko) łączną liczbę wyrazów znajdujących się w plikach lista.txt,
+last.data (pliki załączone do zadania z Wyrażeń regularnych).
+24.Do pliku last_rev.txt przepisz zawartość pliku numerując wiersze malejąco
+(ostatni wiersz ma mieć numer 1). Wykorzystaj polecenie tac.
+25.Wypisz 5 linię podaną ze standardowego wejścia i zapisz wynik w pliku.
+26.Na podstawie polecenia history podaj wywołane przez Ciebie komendy wraz z
+liczbą ich wywołań.

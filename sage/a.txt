@@ -1,0 +1,102 @@
+-rw-r--r--  1 kurys kurys   6421 Oct 22 11:01 1.ipynb
+-rw-r--r--  1 kurys kurys 641131 Nov 16 12:04 Analiza Matematyczna PS_1.html
+-rw-r--r--  1 kurys kurys 553434 Nov 16 12:02 Analiza Matematyczna PS_1.pdf
+-rw-r--r--  1 kurys kurys 101681 Nov 16 15:17 Analiza2.ipynb
+-rw-r--r--  1 kurys kurys   7357 Oct 22 10:57 Lista_nr_1 (1).ipynb
+-rw-r--r--  1 kurys kurys  18764 Nov 16 17:59 Lista_nr_1.ipynb
+-rw-r--r--  1 kurys kurys   7878 Nov 23 17:50 Lista_nr_2.ipynb
+-rw-r--r--  1 kurys kurys 103591 Nov 30 18:10 Lista_nr_3.ipynb
+-rw-r--r--  1 kurys kurys  21594 Dec 14 18:22 Lista_nr_4.ipynb
+-rw-r--r--  1 kurys kurys  32665 Oct 27 12:00 PS2.ipynb
+-rw-r--r--  1 kurys kurys 194838 Dec 15 12:22 PS7_polecenia.ipynb
+-rw-r--r--  1 kurys kurys   1356 Oct 11 17:55 Untitled.ipynb
+-rw-r--r--  1 kurys kurys    581 Oct 12 16:59 Untitled1.ipynb
+-rw-r--r--  1 kurys kurys  14985 Oct 13 08:42 Untitled2.ipynb
+-rw-r--r--  1 kurys kurys    610 Oct 22 10:17 Untitled3.ipynb
+-rw-r--r--  1 kurys kurys     72 Nov 16 12:03 Untitled4.ipynb
+-rw-r--r--  1 kurys kurys   1080 Nov 16 17:45 Untitled5.ipynb
+-rw-r--r--  1 kurys kurys  19218 Nov 16 18:19 Untitled6.ipynb
+-rw-r--r--  1 kurys kurys      0 Dec 21 16:34 a.txt
+-rw-r--r--  1 kurys kurys     49 Dec 21 16:33 b.txt
+-rw-r--r--  1 kurys kurys    316 Dec 15 13:31 ls.out
+-rw-r--r--  1 kurys kurys   1624 Dec 15 13:06 output
+-rw-r--r--  1 kurys kurys 272372 Oct 26 18:20 test.html
+-rw-r--r--  1 kurys kurys   2699 Oct 26 18:22 test.ipynb
+-rw-r--r--  1 kurys kurys  19198 Nov 16 12:08 vertopal.com_Analiza Matematyczna PS_1.ipynb
+-rw-r--r--  1 kurys kurys   8120 Oct 23 11:29 zj 2.ipynb
+
+Algebra:
+total 136
+-rw-r--r-- 1 kurys kurys  6790 Dec  1 12:02 Grzegiorz Kuryś Wej2.ipynb
+-rw-r--r-- 1 kurys kurys  4512 Oct 27 11:54 Grzegorz_Kuryś_wej1gr2.ipynb
+-rw-r--r-- 1 kurys kurys 32727 Nov 30 16:26 PS4-Copy1.ipynb
+-rw-r--r-- 1 kurys kurys 39376 Nov 30 16:50 PS4.ipynb
+-rw-r--r-- 1 kurys kurys 20391 Nov 30 16:25 PS5_polecenia-Copy1.ipynb
+-rw-r--r-- 1 kurys kurys 13778 Nov 24 12:22 PS5_polecenia.ipynb
+-rw-r--r-- 1 kurys kurys  7694 Nov 30 15:40 Untitled.ipynb
+-rw-r--r-- 1 kurys kurys    72 Dec  1 11:40 Untitled1.ipynb
+
+lista:
+total 16
+-rw-r--r-- 1 kurys kurys 1780 Dec 15 08:54 last.dat
+-rw-r--r-- 1 kurys kurys   26 Dec 15 08:54 last.dat:Zone.Identifier
+-rw-r--r-- 1 kurys kurys  656 Dec 15 08:54 lista.txt
+-rw-r--r-- 1 kurys kurys   26 Dec 15 08:54 lista.txt:Zone.Identifier
+
+sage:
+total 6172
+-rw-r--r--  1 kurys kurys     356 Oct 13 08:48 AUTHORS.md
+-rw-r--r--  1 kurys kurys     363 Oct 13 08:48 CITATION.cff
+-rw-r--r--  1 kurys kurys     384 Oct 13 08:48 CITATION.cff.in
+-rw-r--r--  1 kurys kurys   10414 Oct 13 08:48 CODE_OF_CONDUCT.md
+-rw-r--r--  1 kurys kurys   11137 Oct 13 08:48 CODE_OF_CONDUCT_COMMITTEE.md
+-rw-r--r--  1 kurys kurys    1467 Oct 13 08:48 CONTRIBUTING.md
+-rw-r--r--  1 kurys kurys   64278 Oct 13 08:48 COPYING.txt
+-rw-r--r--  1 kurys kurys   14390 Oct 13 08:48 Makefile
+-rw-r--r--  1 kurys kurys     772 Oct 13 08:48 Pipfile
+-rw-r--r--  1 kurys kurys    2043 Oct 13 08:48 Pipfile.m4
+-rw-r--r--  1 kurys kurys   30784 Oct 13 08:48 README.md
+-rw-r--r--  1 kurys kurys    2921 Oct 13 17:13 Untitled.ipynb
+-rw-r--r--  1 kurys kurys      48 Oct 13 08:48 VERSION.txt
+-rw-r--r--  1 kurys kurys   55342 Oct 13 08:50 aclocal.m4
+drwxr-xr-x  2 kurys kurys    4096 Oct 13 08:50 autom4te.cache
+-rwxr-xr-x  1 kurys kurys   13235 Oct 13 08:48 bootstrap
+-rwxr-xr-x  1 kurys kurys    6366 Oct 13 08:48 bootstrap-conda
+drwxr-xr-x  7 kurys kurys    4096 Oct 13 08:48 build
+-rw-r--r--  1 kurys kurys     223 Oct 13 08:48 condarc.yml
+drwxr-xr-x  2 kurys kurys    4096 Oct 13 08:50 config
+-rw-r--r--  1 kurys kurys  449241 Oct 13 08:50 config.log
+-rwxr-xr-x  1 kurys kurys  138499 Oct 13 08:50 config.status
+-rwxr-xr-x  1 kurys kurys 5180618 Oct 13 08:50 configure
+-rw-r--r--  1 kurys kurys   22875 Oct 13 08:48 configure.ac
+drwxr-xr-x  3 kurys kurys    4096 Oct 13 08:48 docker
+-rw-r--r--  1 kurys kurys    6291 Oct 13 08:48 environment-3.10-linux-aarch64.yml
+-rw-r--r--  1 kurys kurys    6178 Oct 13 08:48 environment-3.10-linux.yml
+-rw-r--r--  1 kurys kurys    6316 Oct 13 08:48 environment-3.10-macos-x86_64.yml
+-rw-r--r--  1 kurys kurys    6421 Oct 13 08:48 environment-3.10-macos.yml
+-rw-r--r--  1 kurys kurys    1231 Oct 13 08:50 environment-3.10.yml
+-rw-r--r--  1 kurys kurys    6290 Oct 13 08:48 environment-3.11-linux-aarch64.yml
+-rw-r--r--  1 kurys kurys    6177 Oct 13 08:48 environment-3.11-linux.yml
+-rw-r--r--  1 kurys kurys    6315 Oct 13 08:48 environment-3.11-macos-x86_64.yml
+-rw-r--r--  1 kurys kurys    6420 Oct 13 08:48 environment-3.11-macos.yml
+-rw-r--r--  1 kurys kurys    1231 Oct 13 08:50 environment-3.11.yml
+-rw-r--r--  1 kurys kurys    6287 Oct 13 08:48 environment-3.9-linux-aarch64.yml
+-rw-r--r--  1 kurys kurys    6174 Oct 13 08:48 environment-3.9-linux.yml
+-rw-r--r--  1 kurys kurys    6312 Oct 13 08:48 environment-3.9-macos-x86_64.yml
+-rw-r--r--  1 kurys kurys    6417 Oct 13 08:48 environment-3.9-macos.yml
+-rw-r--r--  1 kurys kurys    1230 Oct 13 08:50 environment-3.9.yml
+-rw-r--r--  1 kurys kurys    1567 Oct 13 08:50 environment-optional-3.10.yml
+-rw-r--r--  1 kurys kurys    1567 Oct 13 08:50 environment-optional-3.11.yml
+-rw-r--r--  1 kurys kurys    1566 Oct 13 08:50 environment-optional-3.9.yml
+drwxr-xr-x  9 kurys kurys    4096 Oct 13 12:15 local
+drwxr-xr-x  3 kurys kurys    4096 Oct 13 12:15 logs
+drwxr-xr-x  2 kurys kurys    4096 Oct 13 08:48 m4
+drwxr-xr-x 19 kurys kurys    4096 Oct 13 08:48 pkgs
+lrwxrwxrwx  1 kurys kurys       5 Oct 13 08:50 prefix -> local
+-rw-r--r--  1 kurys kurys     628 Oct 13 08:48 pyrightconfig.json
+-rw-r--r--  1 kurys kurys     506 Oct 13 08:48 ruff.toml
+-rwxr-xr-x  1 kurys kurys    4894 Oct 13 08:48 sage
+drwxr-xr-x 10 kurys kurys    4096 Oct 13 10:10 src
+-rw-r--r--  1 kurys kurys   61967 Oct 13 08:48 tox.ini
+drwxr-xr-x  2 kurys kurys   20480 Oct 13 10:04 upstream
+lrwxrwxrwx  1 kurys kurys      34 Oct 13 08:50 venv -> local/var/lib/sage/venv-python3.10
