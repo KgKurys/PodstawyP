@@ -1,0 +1,3 @@
+ID;Nazwisko;Wiek;Diagnoza
+debil;debil;15;chuj
+chuj;chuj;15;chujoza
