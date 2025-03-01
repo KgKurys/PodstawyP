@@ -19,7 +19,6 @@ void wyswietlPacjenta(struct pacjent p) {
 
 #define MAX_PACJENTOW 100
 
-// Global arrays and counters
 struct pacjent pacjenci[MAX_PACJENTOW];
 char istniejace_id[MAX_PACJENTOW][21];
 int liczba_pacjentow = 0;
@@ -52,7 +51,6 @@ void usunPacjenta() {
         return;
     }
     
-    // Shift remaining patients
     for(int i = index; i < liczba_pacjentow - 1; i++) {
         pacjenci[i] = pacjenci[i + 1];
         strcpy(istniejace_id[i], istniejace_id[i + 1]);
@@ -135,10 +133,8 @@ void zapiszDoPliku() {
         return;
     }
     
-    // Write header
     fprintf(plik, "ID;Nazwisko;Wiek;Diagnoza\n");
     
-    // Write data
     for(int i = 0; i < liczba_pacjentow; i++) {
         fprintf(plik, "%s;%s;%d;%s\n", 
             pacjenci[i].id,
@@ -159,29 +155,29 @@ void wczytajZPliku() {
     }
     
     char linia[200];
-    // Skip header
+
     fgets(linia, sizeof(linia), plik);
     
-    // Reset counter
+
     liczba_pacjentow = 0;
     
-    // Read data
+
     while(fgets(linia, sizeof(linia), plik) != NULL) {
         char *token;
         
-        // Get ID
+
         token = strtok(linia, ";");
         if(token) strcpy(pacjenci[liczba_pacjentow].id, token);
         
-        // Get Nazwisko
+
         token = strtok(NULL, ";");
         if(token) strcpy(pacjenci[liczba_pacjentow].nazwisko, token);
         
-        // Get Wiek
+
         token = strtok(NULL, ";");
         if(token) pacjenci[liczba_pacjentow].wiek = atoi(token);
         
-        // Get Diagnoza
+
         token = strtok(NULL, "\n");
         if(token) strcpy(pacjenci[liczba_pacjentow].diagnoza, token);
         
