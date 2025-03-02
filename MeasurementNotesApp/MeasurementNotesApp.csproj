@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net6.0-ios;net6.0-android</TargetFrameworks>
+    <RootNamespace>MeasurementNotesApp</RootNamespace>
+    <AssemblyName>MeasurementNotesApp</AssemblyName>
+    <ApplicationTitle>Measurement Notes App</ApplicationTitle>
+    <ApplicationId>com.example.measurementnotesapp</ApplicationId>
+    <UseMaui>true</UseMaui>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Maui.Controls" Version="6.0.100" />
+    <PackageReference Include="Microsoft.Maui.Essentials" Version="6.0.100" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\src.csproj" />
+  </ItemGroup>
+
+</Project>

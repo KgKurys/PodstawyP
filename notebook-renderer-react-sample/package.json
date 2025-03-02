@@ -1,0 +1,63 @@
+{
+  "name": "notebook-renderer-react-sample",
+  "displayName": "Notebook Renderer React Sample",
+  "description": "A sample notebook renderer built with React",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "contributes": {
+    "notebookRenderer": [
+      {
+        "id": "notebook-renderer-react-github-issues",
+        "entrypoint": "./out/client/index.js",
+        "displayName": "GitHub Issues React-based Renderer",
+        "mimeTypes": [
+          "x-application/github-issues"
+        ]
+      }
+    ]
+  },
+  "main": "./out/extension.js",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js",
+    "start": "npx http-server public"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@stylistic/eslint-plugin": "^2.9.0",
+    "@types/glob": "^7.1.3",
+    "@types/node": "^20",
+    "@types/react": "^17.0.15",
+    "@types/react-dom": "^17.0.9",
+    "@types/vscode": "^1.58.0",
+    "@types/vscode-notebook-renderer": "^1.57.8",
+    "@types/webpack-env": "^1.16.0",
+    "concurrently": "^5.3.0",
+    "css-loader": "^4.2.0",
+    "eslint": "^9.13.0",
+    "glob": "^7.1.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.16.0",
+    "vscode-notebook-error-overlay": "^1.0.1",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
