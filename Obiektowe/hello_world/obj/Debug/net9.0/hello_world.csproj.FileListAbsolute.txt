@@ -1,0 +1,15 @@
+C:\Users\kggra\Desktop\Git\PodstawyP\Obiektowe\hello_world\bin\Debug\net9.0\hello_world.exe
+C:\Users\kggra\Desktop\Git\PodstawyP\Obiektowe\hello_world\bin\Debug\net9.0\hello_world.deps.json
+C:\Users\kggra\Desktop\Git\PodstawyP\Obiektowe\hello_world\bin\Debug\net9.0\hello_world.runtimeconfig.json
+C:\Users\kggra\Desktop\Git\PodstawyP\Obiektowe\hello_world\bin\Debug\net9.0\hello_world.dll
+C:\Users\kggra\Desktop\Git\PodstawyP\Obiektowe\hello_world\bin\Debug\net9.0\hello_world.pdb
+C:\Users\kggra\Desktop\Git\PodstawyP\Obiektowe\hello_world\obj\Debug\net9.0\hello_world.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kggra\Desktop\Git\PodstawyP\Obiektowe\hello_world\obj\Debug\net9.0\hello_world.AssemblyInfoInputs.cache
+C:\Users\kggra\Desktop\Git\PodstawyP\Obiektowe\hello_world\obj\Debug\net9.0\hello_world.AssemblyInfo.cs
+C:\Users\kggra\Desktop\Git\PodstawyP\Obiektowe\hello_world\obj\Debug\net9.0\hello_world.csproj.CoreCompileInputs.cache
+C:\Users\kggra\Desktop\Git\PodstawyP\Obiektowe\hello_world\obj\Debug\net9.0\hello_world.sourcelink.json
+C:\Users\kggra\Desktop\Git\PodstawyP\Obiektowe\hello_world\obj\Debug\net9.0\hello_world.dll
+C:\Users\kggra\Desktop\Git\PodstawyP\Obiektowe\hello_world\obj\Debug\net9.0\refint\hello_world.dll
+C:\Users\kggra\Desktop\Git\PodstawyP\Obiektowe\hello_world\obj\Debug\net9.0\hello_world.pdb
+C:\Users\kggra\Desktop\Git\PodstawyP\Obiektowe\hello_world\obj\Debug\net9.0\hello_world.genruntimeconfig.cache
+C:\Users\kggra\Desktop\Git\PodstawyP\Obiektowe\hello_world\obj\Debug\net9.0\ref\hello_world.dll
