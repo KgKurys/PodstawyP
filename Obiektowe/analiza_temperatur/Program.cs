@@ -109,7 +109,7 @@ class Program
         {
         string[] data = lines[i].Split(',');
         string cityName = data[0];
-        double[] temps = new double[7];  // Initialize array with zeros
+        double[] temps = new double[7];
     
         // Convert only the temperature values that exist
         for (int j = 1; j < data.Length && j <= 7; j++)

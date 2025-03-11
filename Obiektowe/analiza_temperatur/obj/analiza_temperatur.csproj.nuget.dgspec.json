@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kggra\\Desktop\\Git\\PodstawyP\\Obiektowe\\analiza_temperatur\\analiza_temperatur.csproj": {}
+    "C:\\Users\\kggra\\Desktop\\Git\\PodstawyP\\obiektowe\\analiza_temperatur\\analiza_temperatur.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kggra\\Desktop\\Git\\PodstawyP\\Obiektowe\\analiza_temperatur\\analiza_temperatur.csproj": {
+    "C:\\Users\\kggra\\Desktop\\Git\\PodstawyP\\obiektowe\\analiza_temperatur\\analiza_temperatur.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kggra\\Desktop\\Git\\PodstawyP\\Obiektowe\\analiza_temperatur\\analiza_temperatur.csproj",
+        "projectUniqueName": "C:\\Users\\kggra\\Desktop\\Git\\PodstawyP\\obiektowe\\analiza_temperatur\\analiza_temperatur.csproj",
         "projectName": "analiza_temperatur",
-        "projectPath": "C:\\Users\\kggra\\Desktop\\Git\\PodstawyP\\Obiektowe\\analiza_temperatur\\analiza_temperatur.csproj",
+        "projectPath": "C:\\Users\\kggra\\Desktop\\Git\\PodstawyP\\obiektowe\\analiza_temperatur\\analiza_temperatur.csproj",
         "packagesPath": "C:\\Users\\kggra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kggra\\Desktop\\Git\\PodstawyP\\Obiektowe\\analiza_temperatur\\obj\\",
+        "outputPath": "C:\\Users\\kggra\\Desktop\\Git\\PodstawyP\\obiektowe\\analiza_temperatur\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kggra\\AppData\\Roaming\\NuGet\\NuGet.Config"
