@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kggra\\Desktop\\Git\\PodstawyP\\obiektowe\\hello_world\\hello_world.csproj": {}
+    "C:\\Users\\kggra\\Desktop\\Git\\PodstawyP\\Obiektowe\\hello_world\\hello_world.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kggra\\Desktop\\Git\\PodstawyP\\obiektowe\\hello_world\\hello_world.csproj": {
+    "C:\\Users\\kggra\\Desktop\\Git\\PodstawyP\\Obiektowe\\hello_world\\hello_world.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kggra\\Desktop\\Git\\PodstawyP\\obiektowe\\hello_world\\hello_world.csproj",
+        "projectUniqueName": "C:\\Users\\kggra\\Desktop\\Git\\PodstawyP\\Obiektowe\\hello_world\\hello_world.csproj",
         "projectName": "hello_world",
-        "projectPath": "C:\\Users\\kggra\\Desktop\\Git\\PodstawyP\\obiektowe\\hello_world\\hello_world.csproj",
+        "projectPath": "C:\\Users\\kggra\\Desktop\\Git\\PodstawyP\\Obiektowe\\hello_world\\hello_world.csproj",
         "packagesPath": "C:\\Users\\kggra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kggra\\Desktop\\Git\\PodstawyP\\obiektowe\\hello_world\\obj\\",
+        "outputPath": "C:\\Users\\kggra\\Desktop\\Git\\PodstawyP\\Obiektowe\\hello_world\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kggra\\AppData\\Roaming\\NuGet\\NuGet.Config"

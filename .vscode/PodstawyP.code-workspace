@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stdio.h": "c",
+			"stdlib.h": "c",
+			"string.h": "c"
+		},
+		"files.exclude": {
+            "**/bin": true,
+            "**/obj": true
+		},
+		"dotnet.defaultSolution": "hello_world.sln"
+	}
+}
