@@ -24,7 +24,7 @@ namespace MyFirstProgram
         // Losowe liczby zgadywanka
         
             Random random = new Random();        
-            bool playAgain = true;
+           // bool playAgain = true;
             /*
             int max = 100;
             int min = 1;
@@ -187,7 +187,7 @@ namespace MyFirstProgram
                 String answer = "";
                 Console.WriteLine("Welcome in my calculator, pick your poison");
                 Console.WriteLine("+, -, * , / or sqr");
-                choice = Console.ReadLine();
+                choice = Console.ReadLine() ?? string.Empty;
 
                 if(choice == "sqr")
                 {
@@ -240,14 +240,14 @@ namespace MyFirstProgram
 
                 }
                 Console.WriteLine("Do you wanna continue ? y/n" );
-                answer = Console.ReadLine().ToLower();
+                answer = Console.ReadLine()?.ToLower() ?? string.Empty;
                 if(answer == "y")
                 {
-                    playAgain = true;
+                    IsRunning = true;  // Change playAgain to IsRunning
                 }
                 else
                 {
-                    playAgain = false;
+                    IsRunning = false; // Change playAgain to IsRunning
                 }
                 
 
