@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\G\\Desktop\\Git\\PodstawyP\\obiektowe\\analiza_temperatur\\analiza_temperatur.csproj": {}
+    "C:\\Users\\G\\Desktop\\Git\\PodstawyP\\Obiektowe\\analiza_temperatur\\analiza_temperatur.csproj": {}
   },
   "projects": {
-    "C:\\Users\\G\\Desktop\\Git\\PodstawyP\\obiektowe\\analiza_temperatur\\analiza_temperatur.csproj": {
+    "C:\\Users\\G\\Desktop\\Git\\PodstawyP\\Obiektowe\\analiza_temperatur\\analiza_temperatur.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\G\\Desktop\\Git\\PodstawyP\\obiektowe\\analiza_temperatur\\analiza_temperatur.csproj",
+        "projectUniqueName": "C:\\Users\\G\\Desktop\\Git\\PodstawyP\\Obiektowe\\analiza_temperatur\\analiza_temperatur.csproj",
         "projectName": "analiza_temperatur",
-        "projectPath": "C:\\Users\\G\\Desktop\\Git\\PodstawyP\\obiektowe\\analiza_temperatur\\analiza_temperatur.csproj",
+        "projectPath": "C:\\Users\\G\\Desktop\\Git\\PodstawyP\\Obiektowe\\analiza_temperatur\\analiza_temperatur.csproj",
         "packagesPath": "C:\\Users\\G\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\G\\Desktop\\Git\\PodstawyP\\obiektowe\\analiza_temperatur\\obj\\",
+        "outputPath": "C:\\Users\\G\\Desktop\\Git\\PodstawyP\\Obiektowe\\analiza_temperatur\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
