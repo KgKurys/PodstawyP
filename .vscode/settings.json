@@ -3,5 +3,7 @@
         "stdio.h": "c",
         "stdlib.h": "c",
         "string.h": "c"
-    }
+    },
+    "dotnet.defaultSolution": "hello_world.sln",
+    "editor.acceptSuggestionOnCommitCharacter": false
 }
