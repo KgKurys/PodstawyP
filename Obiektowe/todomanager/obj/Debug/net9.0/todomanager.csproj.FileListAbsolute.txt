@@ -1,0 +1,15 @@
+C:\users\G\desktop\git\podstawyp\obiektowe\todomanager\bin\Debug\net9.0\todomanager.exe
+C:\users\G\desktop\git\podstawyp\obiektowe\todomanager\bin\Debug\net9.0\todomanager.deps.json
+C:\users\G\desktop\git\podstawyp\obiektowe\todomanager\bin\Debug\net9.0\todomanager.runtimeconfig.json
+C:\users\G\desktop\git\podstawyp\obiektowe\todomanager\bin\Debug\net9.0\todomanager.dll
+C:\users\G\desktop\git\podstawyp\obiektowe\todomanager\bin\Debug\net9.0\todomanager.pdb
+C:\users\G\desktop\git\podstawyp\obiektowe\todomanager\obj\Debug\net9.0\todomanager.GeneratedMSBuildEditorConfig.editorconfig
+C:\users\G\desktop\git\podstawyp\obiektowe\todomanager\obj\Debug\net9.0\todomanager.AssemblyInfoInputs.cache
+C:\users\G\desktop\git\podstawyp\obiektowe\todomanager\obj\Debug\net9.0\todomanager.AssemblyInfo.cs
+C:\users\G\desktop\git\podstawyp\obiektowe\todomanager\obj\Debug\net9.0\todomanager.csproj.CoreCompileInputs.cache
+C:\users\G\desktop\git\podstawyp\obiektowe\todomanager\obj\Debug\net9.0\todomanager.sourcelink.json
+C:\users\G\desktop\git\podstawyp\obiektowe\todomanager\obj\Debug\net9.0\todomanager.dll
+C:\users\G\desktop\git\podstawyp\obiektowe\todomanager\obj\Debug\net9.0\refint\todomanager.dll
+C:\users\G\desktop\git\podstawyp\obiektowe\todomanager\obj\Debug\net9.0\todomanager.pdb
+C:\users\G\desktop\git\podstawyp\obiektowe\todomanager\obj\Debug\net9.0\todomanager.genruntimeconfig.cache
+C:\users\G\desktop\git\podstawyp\obiektowe\todomanager\obj\Debug\net9.0\ref\todomanager.dll
