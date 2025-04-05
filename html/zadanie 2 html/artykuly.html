@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artykuły</title>
+    <style>
+        /* Główne style dla całej strony */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Style dla nagłówka z nazwiskiem autora */
+        .header-title {
+            font-family: Impact, sans-serif;
+            font-size: 48px;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        /* Style dla głównego nagłówka strony */
+        header h1 {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        /* Style dla nawigacji */
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: inline-flex;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #0056b3;
+        }
+
+        /* Style dla artykułów */
+        article {
+            margin-bottom: 40px;
+        }
+
+        .article-title {
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .article-date {
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 20px;
+            display: block;
+            width: 100%;
+        }
+
+        .article {
+            display: block;
+            margin: 40px auto;
+            max-width: 800px;
+            font-size: 18px;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .article-text {
+            margin-bottom: 15px;
+        }
+
+        /* Style dla bloków kodu */
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-family: 'Courier New', Courier, monospace;
+            color: #333;
+            white-space: pre-wrap;
+        }
+
+        code {
+            color: #d63384;
+        }
+    </style>
+</head>
+<body>
+    <!-- Nagłówek z nazwiskiem autora -->
+    <div class="header-title">Grzegorz Kuryś</div>
+    
+    <!-- Nawigacja strony -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Strona Startowa</a></li>
+            <li><a href="artykuly.html">Artykuły</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Główny nagłówek strony -->
+    <header>
+        <h1>Artykuły i Porady Programistyczne</h1>
+    </header>
+    
+    <!-- Pierwszy artykuł -->
+    <article>
+        <h2 class="article-title">Jak napisać funkcję w JavaScript</h2>
+        <time class="article-date" datetime="2023-10-01">1 października 2023</time>
+        <div class="article">
+            <div class="article-text">
+                <p>Funkcja w JavaScript, która przyjmuje imię jako parametr i zwraca powitanie. Jest to prosty przykład, który pokazuje, jak używać funkcji do generowania dynamicznych wyników:</p>
+            </div>
+            <pre><code>function greet(name) {
+    return `Witaj, ${name}!`;
+}</code></pre>
+        </div>
+    </article>
+    
+    <!-- Drugi artykuł -->
+    <article>
+        <h2 class="article-title">Jak efektywnie używać funkcji w JavaScript</h2>
+        <time class="article-date" datetime="2023-10-10">10 października 2023</time>
+        
+        <!-- Funkcja z parametrem domyślnym -->
+        <div class="article">
+            <div class="article-text">
+                <p>Funkcja z parametrem domyślnym pozwala na ustawienie wartości domyślnej, jeśli użytkownik nie poda argumentu. Dzięki temu kod jest bardziej elastyczny i odporny na błędy:</p>
+            </div>
+            <pre><code>// Funkcja z parametrem domyślnym
+function greet(name = "Gość") {
+    return `Witaj, ${name}!`;
+}
+
+// Wywołanie funkcji
+console.log(greet()); // Witaj, Gość!
+console.log(greet("Grzegorz")); // Witaj, Grzegorz!</code></pre>
+        </div>
+        
+        <!-- Funkcja strzałkowa -->
+        <div class="article">
+            <div class="article-text">
+                <p>Funkcja strzałkowa to nowoczesny sposób definiowania funkcji w JavaScript. Jest bardziej zwięzła i szczególnie przydatna w przypadku krótkich operacji:</p>
+            </div>
+            <pre><code>// Funkcja strzałkowa
+const add = (a, b) => a + b;
+
+// Wywołanie funkcji
+console.log(add(5, 3)); // 8</code></pre>
+        </div>
+    </article>
+</body>
+</html>
