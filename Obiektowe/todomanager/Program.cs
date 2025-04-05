@@ -33,7 +33,7 @@ class Task
     public string Description { get; set; }    // Opis zadania
     public DateTime DueDate { get; set; }      // Termin wykonania
     public TaskStatus Status { get; set; } = TaskStatus.ToDo; // Status zadania
-    public User AssignedUser { get; set; }     // Przypisany użytkownik (może być null)
+    public User? AssignedUser { get; set; }     // Przypisany użytkownik (może być null)
 
     // Konstruktor tworzący nowe zadanie
     public Task(string title, string description, DateTime dueDate) => 
@@ -71,7 +71,7 @@ class Project
     public void AddTask(Task task) => Tasks.Add(task);
 
     // Znajduje zadanie po tytule (case-insensitive)
-    public Task GetTask(string title) => 
+    public Task? GetTask(string title) => 
         Tasks.FirstOrDefault(t => t.Title.Equals(title, StringComparison.OrdinalIgnoreCase));
 
     // Wyświetla zadania w projekcie, opcjonalnie filtrując po statusie
@@ -122,7 +122,7 @@ class ToDoManager
     }
 
     // Znajduje projekt po nazwie
-    public Project GetProject(string name) => 
+    public Project? GetProject(string name) => 
         Projects.FirstOrDefault(p => p.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
 
     // Dodaje zadanie do projektu
@@ -146,7 +146,7 @@ class ToDoManager
         var task = project.GetTask(taskTitle);
         if (task == null) { Console.WriteLine("Nie znaleziono zadania."); return false; }
         
-        if (!Users.TryGetValue(userEmail, out User user)) { Console.WriteLine("Nie znaleziono użytkownika."); return false; }
+        if (!Users.TryGetValue(userEmail, out User? user) || user == null) { Console.WriteLine("Nie znaleziono użytkownika."); return false; }
         
         task.AssignUser(user);
         Console.WriteLine($"Przypisano zadanie do użytkownika {user.Name}.");
@@ -257,7 +257,7 @@ class Program
     }
     
     // Pobiera projekt na podstawie wejścia użytkownika (numer lub nazwa)
-    static Project GetProjectByInput(ToDoManager manager, string input)
+    static Project? GetProjectByInput(ToDoManager manager, string input)
     {
         if (int.TryParse(input, out int index) && index > 0 && index <= manager.Projects.Count)
             return manager.Projects[index - 1];
@@ -317,7 +317,7 @@ class Program
         Console.Write("Wybierz zadanie (numer lub tytuł): ");
         string input = Console.ReadLine() ?? "";
         
-        Task task = null;
+        Task? task = null;
         if (int.TryParse(input, out int taskIndex) && taskIndex > 0 && taskIndex <= project.Tasks.Count)
             task = project.Tasks[taskIndex - 1];
         else
