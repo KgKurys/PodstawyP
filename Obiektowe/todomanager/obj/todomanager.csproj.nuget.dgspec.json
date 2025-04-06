@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\users\\G\\desktop\\git\\podstawyp\\obiektowe\\todomanager\\todomanager.csproj": {}
+    "C:\\Users\\G\\Desktop\\Git\\PodstawyP\\Obiektowe\\todomanager\\todomanager.csproj": {}
   },
   "projects": {
-    "C:\\users\\G\\desktop\\git\\podstawyp\\obiektowe\\todomanager\\todomanager.csproj": {
+    "C:\\Users\\G\\Desktop\\Git\\PodstawyP\\Obiektowe\\todomanager\\todomanager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\users\\G\\desktop\\git\\podstawyp\\obiektowe\\todomanager\\todomanager.csproj",
+        "projectUniqueName": "C:\\Users\\G\\Desktop\\Git\\PodstawyP\\Obiektowe\\todomanager\\todomanager.csproj",
         "projectName": "todomanager",
-        "projectPath": "C:\\users\\G\\desktop\\git\\podstawyp\\obiektowe\\todomanager\\todomanager.csproj",
+        "projectPath": "C:\\Users\\G\\Desktop\\Git\\PodstawyP\\Obiektowe\\todomanager\\todomanager.csproj",
         "packagesPath": "C:\\Users\\G\\.nuget\\packages\\",
-        "outputPath": "C:\\users\\G\\desktop\\git\\podstawyp\\obiektowe\\todomanager\\obj\\",
+        "outputPath": "C:\\Users\\G\\Desktop\\Git\\PodstawyP\\Obiektowe\\todomanager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
