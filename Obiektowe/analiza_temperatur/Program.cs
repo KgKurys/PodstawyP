@@ -23,7 +23,7 @@ class Temperature
     public Temperature(string city, double[] temps)
     {
         cityName = city;
-        temperatures = new double[7];  // Initialize with zeros first
+        temperatures = new double[7];  // Inicjalizacja z zerami
         if (temps != null && temps.Length > 0)
         {
             Array.Copy(temps, temperatures, Math.Min(temps.Length, 7));

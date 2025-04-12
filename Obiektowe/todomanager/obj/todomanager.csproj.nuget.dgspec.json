@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\G\\Desktop\\Git\\PodstawyP\\Obiektowe\\todomanager\\todomanager.csproj": {}
+    "C:\\Users\\kggra\\Desktop\\Git\\PodstawyP\\Obiektowe\\todomanager\\todomanager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\G\\Desktop\\Git\\PodstawyP\\Obiektowe\\todomanager\\todomanager.csproj": {
+    "C:\\Users\\kggra\\Desktop\\Git\\PodstawyP\\Obiektowe\\todomanager\\todomanager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\G\\Desktop\\Git\\PodstawyP\\Obiektowe\\todomanager\\todomanager.csproj",
+        "projectUniqueName": "C:\\Users\\kggra\\Desktop\\Git\\PodstawyP\\Obiektowe\\todomanager\\todomanager.csproj",
         "projectName": "todomanager",
-        "projectPath": "C:\\Users\\G\\Desktop\\Git\\PodstawyP\\Obiektowe\\todomanager\\todomanager.csproj",
-        "packagesPath": "C:\\Users\\G\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\G\\Desktop\\Git\\PodstawyP\\Obiektowe\\todomanager\\obj\\",
+        "projectPath": "C:\\Users\\kggra\\Desktop\\Git\\PodstawyP\\Obiektowe\\todomanager\\todomanager.csproj",
+        "packagesPath": "C:\\Users\\kggra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kggra\\Desktop\\Git\\PodstawyP\\Obiektowe\\todomanager\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\G\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\kggra\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
